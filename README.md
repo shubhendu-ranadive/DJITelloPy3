@@ -32,6 +32,13 @@ tello.move_forward(100)
 
 tello.land()
 ```
+### More examples
+In the [examples](examples/) directory there are some code examples.
+Comments in the examples are mostly in both english and chinese.
+
+- [taking a picture](examples/take-picture.py)
+- [recording a video](examples/record-video.py)
+- [simple controlling using your keyboard](examples/manual-control-opencv.py)
 
 ### Notes
 - If you are using the ```streamon``` command and the response is ```Unknown command``` means you have to update the Tello firmware. That can be done through the Tello app.
