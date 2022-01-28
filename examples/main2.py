@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+'''
+This is a Haar cascade face recognition based Tello drone control script.
+NOTE: Support only for Python2. Does not work with Python3 versions.
+'''
 import tello		# tello.pyをインポート
 import time			# time.sleepを使いたいので
 import cv2			# OpenCVを使うため
